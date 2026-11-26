@@ -1,43 +1,81 @@
-<div align="center">
+<!-- Design assets: scripts/build-assets.py. Updated automatically every 6 h: the PROJECTS block and assets/statistics (scripts/update-projects.py). -->
 
-[![English](https://img.shields.io/badge/English-238636?style=for-the-badge)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-6e7781?style=for-the-badge)](README.es.md)
+<p align="right"><a href="README.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/lang-en-active-dark.svg"><img src="assets/buttons/lang-en-active-light.svg" alt="English (current)" height="34"></picture></a><a href="README.es.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/lang-es-inactive-dark.svg"><img src="assets/buttons/lang-es-inactive-light.svg" alt="Ver en español" height="34"></picture></a></p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-en-dark.svg"><img src="assets/banner-en-light.svg" alt="Alejandro López Zacarías — Full Stack" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banners/banner-en-dark.svg"><img src="assets/banners/banner-en-light.svg" alt="Alejandro López Zacarías — Full-Stack Software Developer. Available for work. Building reliable software. Solving real-world problems. Oaxaca, Mexico." width="100%"></picture>
 
-### Software with purpose.
+<br>
 
-Independent developer in Mexico. I build digital solutions for financial operations, business automation and network infrastructure.
+### About me
 
-[![Repositories](https://img.shields.io/badge/Repositories-21262D?style=for-the-badge&logo=github)](https://github.com/A-L-Z?tab=repositories)
+Independent software developer with hands-on experience building financial platforms, business management systems and network automation solutions.
 
-</div>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/chip-freelance-en-dark.svg"><img src="assets/cards/chip-freelance-en-light.svg" alt="Freelance Developer" height="36"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/chip-remote-en-dark.svg"><img src="assets/cards/chip-remote-en-light.svg" alt="Remote / On-site" height="36"></picture></p>
 
-## 01 / Expertise
+<br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/expertise-en-dark.svg"><img src="assets/expertise-en-light.svg" alt="Development, finance, automation and infrastructure" width="100%"></picture>
+###### 01 / AREAS OF EXPERTISE
 
-## 02 / Technology stack
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/expertise-en-dark.svg"><img src="assets/cards/expertise-en-light.svg" alt="Full-Stack Development: web applications and APIs. Financial Technology: credit and payment systems. Business Automation: operational workflows. Infrastructure: networks and Linux servers." width="100%"></picture>
 
-![JavaScript](https://img.shields.io/badge/JavaScript-21262D?style=flat-square&logo=javascript&logoColor=white) ![React](https://img.shields.io/badge/React-21262D?style=flat-square&logo=react&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-21262D?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-21262D?style=flat-square&logo=express&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-21262D?style=flat-square&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-21262D?style=flat-square&logo=supabase&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-21262D?style=flat-square&logo=linux&logoColor=white) ![Git](https://img.shields.io/badge/Git-21262D?style=flat-square&logo=git&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-21262D?style=flat-square&logo=tailwindcss&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-21262D?style=flat-square&logo=cloudflare&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-21262D?style=flat-square&logo=sqlite&logoColor=white) ![MikroTik](https://img.shields.io/badge/MikroTik-21262D?style=flat-square&logo=mikrotik&logoColor=white)
+<br>
 
-## 03 / Selected work
+###### 02 / TECHNOLOGY STACK
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-en-dark.svg"><img src="assets/work-en-light.svg" alt="Credi Mujer and Bolt System, private projects" width="100%"></picture>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/label-frontend-en-dark.svg"><img src="assets/cards/stack/label-frontend-en-light.svg" alt="Frontend" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/javascript-dark.svg"><img src="assets/cards/stack/javascript-light.svg" alt="JavaScript" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/react-dark.svg"><img src="assets/cards/stack/react-light.svg" alt="React" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/tailwindcss-dark.svg"><img src="assets/cards/stack/tailwindcss-light.svg" alt="Tailwind CSS" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/html5-dark.svg"><img src="assets/cards/stack/html5-light.svg" alt="HTML5" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/css-dark.svg"><img src="assets/cards/stack/css-light.svg" alt="CSS3" height="36"></picture></p>
 
-Private projects; source code and customer information are not published.
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/label-backend-en-dark.svg"><img src="assets/cards/stack/label-backend-en-light.svg" alt="Backend" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/nodedotjs-dark.svg"><img src="assets/cards/stack/nodedotjs-light.svg" alt="Node.js" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/express-dark.svg"><img src="assets/cards/stack/express-light.svg" alt="Express" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/rest-en-dark.svg"><img src="assets/cards/stack/rest-en-light.svg" alt="REST APIs" height="36"></picture></p>
 
-## 04 / Public projects
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/label-databases-en-dark.svg"><img src="assets/cards/stack/label-databases-en-light.svg" alt="Databases" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/postgresql-dark.svg"><img src="assets/cards/stack/postgresql-light.svg" alt="PostgreSQL" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/supabase-dark.svg"><img src="assets/cards/stack/supabase-light.svg" alt="Supabase" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/sqlite-dark.svg"><img src="assets/cards/stack/sqlite-light.svg" alt="SQLite" height="36"></picture></p>
+
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/label-infrastructure-en-dark.svg"><img src="assets/cards/stack/label-infrastructure-en-light.svg" alt="Infrastructure" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/git-dark.svg"><img src="assets/cards/stack/git-light.svg" alt="Git" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/linux-dark.svg"><img src="assets/cards/stack/linux-light.svg" alt="Linux" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/cloudflare-dark.svg"><img src="assets/cards/stack/cloudflare-light.svg" alt="Cloudflare" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/mikrotik-dark.svg"><img src="assets/cards/stack/mikrotik-light.svg" alt="MikroTik" height="36"></picture></p>
+
+<br>
+
+###### 03 / SELECTED PROJECTS
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/project-credi-mujer-en-dark.svg"><img src="assets/cards/project-credi-mujer-en-light.svg" alt="Credi Mujer (private) — Financial management platform. Microcredit administration, payment processing and operational management. React, Node.js, PostgreSQL." width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/project-bolt-system-en-dark.svg"><img src="assets/cards/project-bolt-system-en-light.svg" alt="Bolt System (private) — ISP management platform. Network infrastructure, service administration and business automation. MikroTik, Networking, Automation." width="100%"></picture>
+
+<sub>Private projects: source code, credentials and customer data are not published.</sub>
 
 <!-- PROJECTS:START -->
-New public projects coming soon.
-
-[Explore all repositories](https://github.com/A-L-Z?tab=repositories)
 <!-- PROJECTS:END -->
 
-## 05 / Let's work together
+<a href="https://github.com/A-L-Z?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/explore-en-dark.svg"><img src="assets/buttons/explore-en-light.svg" alt="Explore all repositories ↗" width="100%"></picture></a>
 
-Open to remote and on-site software development opportunities. Native Spanish; English reading skills, developing spoken proficiency.
+<br>
 
----
+###### 04 / DEVELOPMENT ACTIVITY
 
-<div align="center"><sub>A-L-Z · Software with purpose.</sub></div>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/statistics/activity-en-dark.svg"><img src="assets/statistics/activity-en-light.svg" alt="Development activity: contributions in the last year. Consistency. Learning. Building." width="100%"></picture>
+
+<br>
+
+###### 05 / LANGUAGES
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/languages-en-dark.svg"><img src="assets/cards/languages-en-light.svg" alt="Spanish: native speaker. English: reading skills, improving spoken English." width="100%"></picture>
+
+<br>
+
+<a href="https://github.com/A-L-Z"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/availability-en-dark.svg"><img src="assets/cards/availability-en-light.svg" alt="Let's build something great. Open to full-time employment, remote work, on-site work, professional collaborations and freelance development. View GitHub profile." width="100%"></picture></a>
+
+<br>
+
+<p align="center"><b>A&nbsp;&nbsp;—&nbsp;&nbsp;L&nbsp;&nbsp;—&nbsp;&nbsp;Z</b><br><sub>Software. Engineering. Innovation.</sub></p>

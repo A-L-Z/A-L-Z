@@ -1,25 +1,46 @@
-name: Update public projects
+name: Update profile
+
 on:
   schedule:
-    - cron: '17 */6 * * *'
+    - cron: "17 */6 * * *" # every six hours
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update-profile.yml"
+
 permissions:
-  contents: write
+  contents: write # only needed to commit the regenerated sections
+
 concurrency:
   group: profile-update
   cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Update English and Spanish profiles
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh public repositories and activity
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python3 scripts/update-projects.py
-      - name: Commit changed project sections
+        run: python scripts/update-projects.py
+
+      - name: Commit only when something changed
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md README.es.md
-          git diff --cached --quiet || (git commit -m 'Update public projects' && git push)
+          git add -A -- README.md README.es.md assets/cards/repos assets/statistics
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh public projects and activity"
+          git push
