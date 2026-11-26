@@ -1,0 +1,25 @@
+name: Update public projects
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: profile-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update English and Spanish profiles
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update-projects.py
+      - name: Commit changed project sections
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md README.es.md
+          git diff --cached --quiet || (git commit -m 'Update public projects' && git push)

@@ -1,100 +1,59 @@
-
 <div align="center">
 
-# Alejandro López Zacarías
+**English** &nbsp;·&nbsp; [Español](README.es.md)
 
-**Full-Stack Developer & Software Solutions**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-en-dark.svg">
+  <img src="assets/banner-en-light.svg" alt="Alejandro López Zacarías — Full-Stack Developer" width="100%">
+</picture>
 
-Building technology for real-world business challenges.
+### Software with purpose.
 
-Mexico · Open to work
+Independent developer in Mexico building practical solutions for financial operations, business automation and network infrastructure.
 
-[GitHub](https://github.com/A-L-Z) · [Repositories](https://github.com/A-L-Z?tab=repositories)
+[Explore repositories](https://github.com/A-L-Z?tab=repositories) · [Contact via GitHub](https://github.com/A-L-Z)
 
 </div>
 
 ---
 
-## About me
+### 01 / About me
 
-I'm an independent software developer focused on building
-functional, reliable and maintainable software solutions.
+I design, develop and deploy full-stack applications that address operational challenges. My experience includes financial workflows, database-backed services, Linux deployments and ISP network automation.
 
-My experience combines software development, business
-management systems, financial technology, automation
-and network infrastructure.
+### 02 / Applied experience
 
-I enjoy transforming complex problems into practical
-technology solutions.
+| Work | What I build | Visibility |
+| --- | --- | --- |
+| **Credi Mujer** | Microcredit administration, payment tracking and business operations | Private |
+| **Bolt System** | ISP administration and network automation workflows | Private |
 
-## Technology Stack
+*These are real-world projects. Their private source code and customer information are not published here.*
 
-**Frontend**
+### 03 / Technology stack
 
-![JavaScript](https://img.shields.io/badge/JavaScript-18181B?style=flat-square&logo=javascript)
-![React](https://img.shields.io/badge/React-18181B?style=flat-square&logo=react)
-![HTML5](https://img.shields.io/badge/HTML5-18181B?style=flat-square&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-18181B?style=flat-square&logo=css3)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-18181B?style=flat-square&logo=tailwindcss)
+**Frontend** · JavaScript · React · HTML5 · CSS3 · Tailwind CSS
 
-**Backend & Databases**
+**Backend** · Node.js · Express · REST APIs
 
-![Node.js](https://img.shields.io/badge/Node.js-18181B?style=flat-square&logo=nodedotjs)
-![Express](https://img.shields.io/badge/Express-18181B?style=flat-square&logo=express)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18181B?style=flat-square&logo=postgresql)
-![SQLite](https://img.shields.io/badge/SQLite-18181B?style=flat-square&logo=sqlite)
-![Supabase](https://img.shields.io/badge/Supabase-18181B?style=flat-square&logo=supabase)
+**Databases / Bases de datos** · PostgreSQL · SQLite · Supabase
 
-**Infrastructure & Development Tools**
+**Infrastructure / Infraestructura** · Linux · Git · Cloudflare · MikroTik
 
-![Linux](https://img.shields.io/badge/Linux-18181B?style=flat-square&logo=linux)
-![Git](https://img.shields.io/badge/Git-18181B?style=flat-square&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-18181B?style=flat-square&logo=github)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-18181B?style=flat-square&logo=cloudflare)
-![VS Code](https://img.shields.io/badge/VS_Code-18181B?style=flat-square&logo=visualstudiocode)
+### 04 / Public repositories
 
-## Professional Experience
+<!-- PROJECTS:START -->
+New public projects coming soon.
 
-- Full-stack web application development.
-- Financial and microcredit management systems.
-- Business process automation.
-- REST APIs and database management.
-- Linux servers and application deployment.
-- ISP management and network infrastructure.
+[Explore all repositories](https://github.com/A-L-Z?tab=repositories)
+<!-- PROJECTS:END -->
 
-## Projects
+### 05 / Opportunities
 
-My work focuses on building software that addresses
-real operational and business needs.
+Open to software development roles, remote or on-site opportunities and professional collaborations.
 
-Explore my publicly available projects and ongoing work:
-
-[View all repositories →](https://github.com/A-L-Z?tab=repositories)
-
-## Development Activity
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=A-L-Z&theme=github-compact&hide_border=true" />
-
-</div>
-
-## Let's Connect
-
-I'm currently open to professional opportunities,
-collaborative projects and software development roles.
-
-- Full-time employment
-- Remote and on-site opportunities
-- Freelance development
-- Software engineering collaborations
+**Languages:** Spanish (native) · English (reading; developing spoken proficiency).
 
 ---
 
-<div align="center">
-
-**Build. Learn. Improve.**
-
-Technology with purpose.
-
-</div>
+<div align="center"><sub>A-L-Z · Building software that solves real problems.</sub></div>
