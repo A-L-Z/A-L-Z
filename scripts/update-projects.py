@@ -65,6 +65,8 @@ LABELS = {
     },
 }
 READMES = {"en": "README.md", "es": "README.es.md"}
+# (file, marker name, language): README.md also embeds the collapsible Spanish version.
+MARKERS = [("README.md", "PROJECTS", "en"), ("README.md", "PROJECTS-ES", "es"), ("README.es.md", "PROJECTS", "es")]
 LEVELS = {"NONE": 0, "FIRST_QUARTILE": 1, "SECOND_QUARTILE": 2, "THIRD_QUARTILE": 3, "FOURTH_QUARTILE": 4}
 LANGUAGE_COLORS = {
     "JavaScript": "#F1E05A", "TypeScript": "#3178C6", "Python": "#3572A5", "HTML": "#E34C26",
@@ -173,13 +175,13 @@ def projects_block(repos, lang):
 
 
 def update_projects(root, repos):
-    pattern = re.compile(r"<!-- PROJECTS:START -->.*?<!-- PROJECTS:END -->", re.S)
-    readmes = {}
-    for lang, filename in READMES.items():  # validate before touching anything
-        content = (root / filename).read_text(encoding="utf-8")
-        if len(pattern.findall(content)) != 1:
-            raise ValueError(f"Expected exactly one PROJECTS marker pair in {filename}")
-        readmes[lang] = content
+    def pattern(name):
+        return re.compile(rf"<!-- {name}:START -->.*?<!-- {name}:END -->", re.S)
+
+    files = {f: (root / f).read_text(encoding="utf-8") for f, _, _ in MARKERS}
+    for filename, name, _ in MARKERS:  # validate before touching anything
+        if len(pattern(name).findall(files[filename])) != 1:
+            raise ValueError(f"Expected exactly one {name} marker pair in {filename}")
     repo_dir = root / "assets" / "cards" / "repos"
     repo_dir.mkdir(parents=True, exist_ok=True)
     expected = set()
@@ -194,11 +196,12 @@ def update_projects(root, repos):
         if stale.name not in expected:
             stale.unlink()
             print(f"removed {stale.name}")
-    for lang, content in readmes.items():
+    for filename, name, lang in MARKERS:
         block = projects_block(repos, lang)
         inner = f"\n{block}\n" if block else "\n"
-        updated = pattern.sub(lambda _: f"<!-- PROJECTS:START -->{inner}<!-- PROJECTS:END -->", content)
-        write_if_changed(root / READMES[lang], updated)
+        files[filename] = pattern(name).sub(lambda _: f"<!-- {name}:START -->{inner}<!-- {name}:END -->", files[filename])
+    for filename, content in files.items():
+        write_if_changed(root / filename, content)
 
 
 # ---------------------------------------------------------------- activity card

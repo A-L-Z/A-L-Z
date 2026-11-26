@@ -157,23 +157,18 @@ def banner(lang, theme):
     return svg(w, h, "".join(body), title, desc)
 
 
-# ---------------------------------------------------------------- language selector
-def lang_button(code, side, active, theme):
+# ---------------------------------------------------------------- language toggle
+def lang_toggle(theme):
+    """Summary button of the collapsible Spanish version (stays on the profile page)."""
     t = THEMES[theme]
-    w, h, r = 60, 34, 10
-    fill = t["active"] if active else t["raised"]
-    color = t["text"] if active else t["muted"]
-    if side == "left":
-        outline = f"M{w} 0.5H{r + .5}A{r} {r} 0 0 0 0.5 {r + .5}V{h - r - .5}A{r} {r} 0 0 0 {r + .5} {h - .5}H{w}"
-        shape = outline + "Z"
-    else:
-        outline = f"M0 0.5H{w - r - .5}A{r} {r} 0 0 1 {w - .5} {r + .5}V{h - r - .5}A{r} {r} 0 0 1 {w - r - .5} {h - .5}H0"
-        shape = outline + "Z"
-    body = (f'<path d="{shape}" fill="{fill}"/><path d="{outline}" fill="none" stroke="{t["border"]}"/>'
-            + (f'<line x1="{w - .5 if side == "left" else .5}" y1="0" x2="{w - .5 if side == "left" else .5}" y2="{h}" stroke="{t["border"]}"/>' if side == "left" else "")
-            + text(w / 2, 21.5, code, 13, color, 600 if active else 500, anchor="middle", spacing=0.8))
-    state = "current language" if active else "switch language"
-    return svg(w, h, body, f"{code} — {state}")
+    label = "Ver en español"
+    h = 36
+    w = round(12 + 18 + 10 + text_width("ES", 13, 700, 0.6) + 10 + text_width(label, 14, 500) + 14)
+    body = (frame(0, 0, w, h, t, "card", 10) + icon("globe", 12, 9, 18, t["text"], 1.9)
+            + text(40, 23, "ES", 13, t["text"], 700, spacing=0.6)
+            + f'<line x1="{40 + text_width("ES", 13, 700, 0.6) + 5:.1f}" y1="11" x2="{40 + text_width("ES", 13, 700, 0.6) + 5:.1f}" y2="25" stroke="{t["border"]}"/>'
+            + text(40 + text_width("ES", 13, 700, 0.6) + 10, 23, label, 14, t["muted"], 500))
+    return svg(w, h, body, "ES — Ver en español")
 
 
 # ---------------------------------------------------------------- small chips
@@ -316,10 +311,7 @@ def availability(lang, theme):
 # ---------------------------------------------------------------- build
 def main():
     for theme in THEMES:
-        for code, side in (("EN", "left"), ("ES", "right")):
-            for active in (True, False):
-                write(f"buttons/lang-{code.lower()}-{'active' if active else 'inactive'}-{theme}.svg",
-                      lang_button(code, side, active, theme))
+        write(f"buttons/lang-toggle-es-{theme}.svg", lang_toggle(theme))
         for key in TECH:
             label = TECH[key][0]
             if key == "rest":

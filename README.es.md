@@ -1,6 +1,5 @@
 <!-- Design assets: scripts/build-assets.py. Updated automatically every 6 h: the PROJECTS block and assets/statistics (scripts/update-projects.py). -->
 
-<p align="right"><a href="README.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/lang-en-inactive-dark.svg"><img src="assets/buttons/lang-en-inactive-light.svg" alt="View in English" height="34"></picture></a><a href="README.es.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/lang-es-active-dark.svg"><img src="assets/buttons/lang-es-active-light.svg" alt="Español (actual)" height="34"></picture></a></p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/banners/banner-es-dark.svg"><img src="assets/banners/banner-es-light.svg" alt="Alejandro López Zacarías — Desarrollador de Software Full-Stack. Disponible para trabajar. Construyendo software confiable. Resolviendo problemas reales. Oaxaca, México." width="100%"></picture>
 
