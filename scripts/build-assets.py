@@ -95,6 +95,7 @@ TECH = {
     "css": ("CSS3", "#663399", "#A57FD8"),
     "nodedotjs": ("Node.js", "#5FA04E", None),
     "express": ("Express", "#000000", "#E6EDF3"),
+    "python": ("Python", "#3776AB", "#5A9FD4"),
     "rest": ("REST APIs", None, None),
     "postgresql": ("PostgreSQL", "#4169E1", "#6F8FF0"),
     "supabase": ("Supabase", "#3FCF8E", None),
@@ -106,7 +107,7 @@ TECH = {
 }
 STACK = {
     "frontend": ["javascript", "react", "tailwindcss", "html5", "css"],
-    "backend": ["nodedotjs", "express", "rest"],
+    "backend": ["nodedotjs", "express", "python", "rest"],
     "databases": ["postgresql", "supabase", "sqlite"],
     "infrastructure": ["git", "linux", "cloudflare", "mikrotik"],
 }

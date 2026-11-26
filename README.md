@@ -35,6 +35,7 @@ Desarrollador de software independiente con experiencia práctica en la creació
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/label-backend-es-dark.svg"><img src="assets/cards/stack/label-backend-es-light.svg" alt="Backend" height="36"></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/nodedotjs-dark.svg"><img src="assets/cards/stack/nodedotjs-light.svg" alt="Node.js" height="36"></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/express-dark.svg"><img src="assets/cards/stack/express-light.svg" alt="Express" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/python-dark.svg"><img src="assets/cards/stack/python-light.svg" alt="Python" height="36"></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/rest-es-dark.svg"><img src="assets/cards/stack/rest-es-light.svg" alt="APIs REST" height="36"></picture></p>
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/label-databases-es-dark.svg"><img src="assets/cards/stack/label-databases-es-light.svg" alt="Bases de datos" height="36"></picture>
@@ -117,6 +118,7 @@ Independent software developer with hands-on experience building financial platf
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/label-backend-en-dark.svg"><img src="assets/cards/stack/label-backend-en-light.svg" alt="Backend" height="36"></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/nodedotjs-dark.svg"><img src="assets/cards/stack/nodedotjs-light.svg" alt="Node.js" height="36"></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/express-dark.svg"><img src="assets/cards/stack/express-light.svg" alt="Express" height="36"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/python-dark.svg"><img src="assets/cards/stack/python-light.svg" alt="Python" height="36"></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/rest-en-dark.svg"><img src="assets/cards/stack/rest-en-light.svg" alt="REST APIs" height="36"></picture></p>
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/stack/label-databases-en-dark.svg"><img src="assets/cards/stack/label-databases-en-light.svg" alt="Databases" height="36"></picture>
